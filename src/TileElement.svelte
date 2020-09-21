@@ -32,7 +32,7 @@
 <div class="tileDiv">
 <div id="contents">
 <a href={"#"+tile.link}>
-  <img src={tile.image} alt="" />
+  <!-- <img src={tile.image} alt="" /> -->
   <div id="text">
     <h2>{tile.title}</h2>
   </div>
