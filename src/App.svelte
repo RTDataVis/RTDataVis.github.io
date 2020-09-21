@@ -1,14 +1,11 @@
 <script>
   //import Examples from "./examples.svelte"
   //import Canvas from "./canvas.svelte"
-  import Projects from "./projects.svelte";
-  import GeneralHPC from "./generalhpc.svelte";
-  import Organization from "./organization.svelte";
-  import Dropins from "./dropins.svelte";
-  import Workshops from "./workshops.svelte";
+  import Showcase from "./test.svelte";
   import ProjectsInfo from "./projects_info.svelte";
   import HPCInfo from "./hpc_info.svelte";
   import OrgInfo from "./organization_info.svelte";
+  import WorkshopsInfo from "./workshops_info.svelte";
 </script>
 
 <style>
@@ -77,14 +74,9 @@
 </div>
 <div id="center">
   <div class="vholder">
-    <h1>Enablement</h1>
-    <Projects />
-    <GeneralHPC />
-    <Organization />
-    <h1>Engagement</h1>
-    <Dropins />
-    <Workshops />
-
+  <!-- actual tiles -->
+    <Showcase />
+    <!-- the rest of the file -->
     <div id="infoSection">
       <!-- this is where the tiles and links should take us -->
       <div id="infoText">
@@ -152,6 +144,7 @@
     <ProjectsInfo />
     <HPCInfo />
     <OrgInfo />
+    <WorkshopsInfo />
 
   </div>
 </div>
