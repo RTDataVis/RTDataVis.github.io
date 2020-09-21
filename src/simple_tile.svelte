@@ -9,7 +9,7 @@
 <style>
   .tile {
     border: 1px black solid;
-    width:25%;
+    width:80%;
     border-radius: 10px;
   }
   img{
