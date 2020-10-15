@@ -24,22 +24,18 @@
       });
     }
     console.log(holder.getBoundingClientRect().height)
-    setTimeout(()=> {
-        let avHeight = holder.getBoundingClientRect().height/allTiles.length
-        holder.style.height = `${holder.getBoundingClientRect().height/2.5}px`
-    },3000)
+    // setTimeout(()=> {
+    //     let avHeight = holder.getBoundingClientRect().height/allTiles.length
+    //     holder.style.height = `${holder.getBoundingClientRect().height/2.5}px`
+    // },3000)
   });
 </script>
 
 <style>
-  #columnsHolder {
-    width: 80%;
-    display: flex;
-  }
   .holder {
-    display: flex;
-    flex-direction: column;
-    flex-wrap:wrap;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows:minmax(100px,auto);
   }
   #outer {
     display: flex;
