@@ -9,7 +9,7 @@ export default [
   },
   {
     "title": "Project Intake Website",
-    "subtext": "This website lets a user create a project request filling out specific questions that help us understand their request. Upon submission, the vislab-consult email list receives a digest of this information, and we are then able to decide what follow up is appropriate. ",
+    "subtext": "This website lets a user create a project request filling out specific questions that help us understand their request. Upon submission, the vislab-consult email list receives a digest of this information, and I'm then able to decide what follow up is appropriate. ",
     "image": "intake.png",
     "link":"intakewebsite",
     "projlinks": "https://rtdv-intake.glitch.me/",

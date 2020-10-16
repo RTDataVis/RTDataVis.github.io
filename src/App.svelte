@@ -57,7 +57,7 @@
     </div>
     <div id="who">
       <a href="#whoText">
-        <h3>Members</h3>
+        <h3>Bio</h3>
       </a>
     </div>
     <div id="intake">
@@ -91,7 +91,7 @@
               visually analyze that data and see the results of changing
               specific parameters.
             </p>
-            <h3>What we do</h3>
+            <h3>What I do</h3>
             <ul>
 
               <li>Visualization, Animation, and Mapping Software</li>
