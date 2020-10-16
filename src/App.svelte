@@ -107,9 +107,10 @@
         </div>
       </div>
       <div id="whoText">
-        <h1>Meet our team</h1>
+        <h1>Bio</h1>
         <div class="infoOuter">
           <div class="infoInner">
+            <img src="./portrait.png" alt="">
             <h3>Devin Bayly</h3>
             <p>
               I'm a member of the Research Technologies Data & Visualization
