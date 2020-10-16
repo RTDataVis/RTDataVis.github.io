@@ -33,9 +33,14 @@
 
 <style>
   .holder {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-auto-rows:minmax(100px,auto);
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    height:1500px;
+    overflow:scroll;
+    background:lightgray;
+    border-radius:10px;
+    overflow-y:hidden;
   }
   #outer {
     display: flex;
