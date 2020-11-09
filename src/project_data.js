@@ -4,7 +4,12 @@ export default [
     "image": "developing.png",
     "link": "oystervibrio",
     "subtext": "Vibrio illness from oysters can be a moderate to life threatening risk from eating raw oysters. I’m assisting Emily Cooksey with creating a web map of her literature review representing relevant parameters of studies spatially where they took place around the world.",
-    "projlinks": "In progress",
+    "projlinks": [
+      {
+        "text": "In progress",
+        "url": ""
+      }
+    ],
     "contact": "Jean McClelland, Emily Cooksey"
   },
   {
@@ -12,7 +17,12 @@ export default [
     "image": "developing.png",
     "link": "retailscraping",
     "subtext": "This group of researchers wants to assemble a collection of best practices for the retail sector to mitigate the threat of coronavirus exposure to their staff and customers. I’m assisting with web scraping data from 10 retailer websites from March-December 2020 that they may use to evaluate the practices put in place over time.",
-    "projlinks": "In progress",
+    "projlinks": [
+      {
+        "text": "In progress",
+        "url": ""
+      }
+    ],
     "contact": "Mona Arora, Sabrina Helm, Alexis H Wait"
   },
   {
@@ -20,7 +30,12 @@ export default [
     "image": "developing.png",
     "link": "azvulnmaps",
     "subtext": "State decision makers need to pinpoint areas of vulnerability using an index composed of social factors and hospital discharge records. ArcGIS map layers were integrated into an interactive webmap that calculates collected data according to the vulnerability index formula by zipcodes.",
-    "projlinks": "In progress",
+    "projlinks": [
+      {
+        "text": "In progress",
+        "url": ""
+      }
+    ],
     "contact": "Katherine Ellingson, Kacey Ernst, Valerie Madera Garcia"
   },
   {
@@ -28,7 +43,12 @@ export default [
     "image": "mem_jogger.png",
     "link": "#test",
     "subtext": "Contact tracers have a difficult job during the COVID 19 pandemic, but tracing efforts could be much more efficient if individuals could remind themselves where they’ve been on campus by looking at a 2 week summary of the locations they’ve used wifi. I’ve built a visualization tool to display location and duration on an interactive campus map for ranges of time selected by a user.",
-    "projlinks": "Links: In progress",
+    "projlinks": [
+      {
+        "text": "In progress",
+        "url": ""
+      }
+    ],
     "contact": "Sudha Ram, Nirav Merchant, Jeremy Frumkin"
   },
   {
@@ -36,7 +56,20 @@ export default [
     "image": "retrofit.png",
     "link": "retrofitAZLIVE",
     "subtext": "AZLIVE was a visualization studio that existed before my time with the visualization team, so it seemed like an interesting project to retrofit some of their previous creations for VR display on the web. Three projects were successfully converted: Domoni Crater Mars, Spider Room Psychology Experiment, Southwest Pots.",
-    "projlinks": "Domoni Crater (for desktop/laptop) Domoni Crater (for mobile) Spider Room  Southwest Pots",
+    "projlinks": [
+      {
+        "text": "Link: Domoni Crater (for desktop/laptop)",
+        "url": "https://lava-step.glitch.me"
+      },
+      {
+        "text": "Link:  Domoni Crater (for mobile)",
+        "url": "https://solar-wolfsbane.glitch.me/"
+      },
+      {
+        "text": "Link:  Spider Room  Southwest Pots",
+        "url": "http://held-alamosaurus.glitch.me/"
+      }
+    ],
     "contact": "Jen Nichols, Amanda Meeks, Anna Montana"
   },
   {
@@ -44,7 +77,16 @@ export default [
     "image": "biochem_network.png",
     "link": "biochem-networks",
     "subtext": "Brittany works with cancer genes and she wanted to better understand the relationship between protein groups and the cancer genes that may be transcribed to make the proteins. I created an interactive force directed network visualization from her data that she can modify using play/pause buttons, sliders to adjust the forces used in laying out the graph, and drag and drop repositioning options for elements.",
-    "projlinks": "https://github.com/DevinBayly/biochem_networks https://devinbayly.github.io/biochem_networks/testing/public/",
+    "projlinks": [
+      {
+        "text": "Link: Github repo",
+        "url": "https://github.com/DevinBayly/biochem_networks"
+      },
+      {
+        "text": "Link: Live interactive web visualization",
+        "url": " https://devinbayly.github.io/biochem_networks/testing/public/"
+      }
+    ],
     "contact": "Brittany Stankavich"
   },
   {
@@ -52,7 +94,16 @@ export default [
     "image": "spring_break_covid.png",
     "link": "spring-break-covid",
     "subtext": "Around the beginning of the COVID pandemic students went on spring break and Dr. Arora asked students to take photos of all of the signage around them related to the pandemic. I assisted in spatially representing these photos in an interactive web map.",
-    "projlinks": "https://github.com/DevinBayly/covid-spring-break-tracking https://devinbayly.github.io/covid-spring-break-tracking/app/",
+    "projlinks": [
+      {
+        "text": "Link: Github repo",
+        "url": "https://github.com/DevinBayly/covid-spring-break-tracking"
+      },
+      {
+        "text": "Link: Live interactive web map",
+        "url": " https://devinbayly.github.io/covid-spring-break-tracking/app/"
+      }
+    ],
     "contact": "Dr. Mona Arora, Kiri Carini"
   },
   {
@@ -60,15 +111,33 @@ export default [
     "image": "joshuas_museum.png",
     "link": "social-vr-museum",
     "subtext": "In this project I oversaw Joshua Garver’s digital preservation capstone project to generate 3D models from collections of photos online and make these models accessible using Mozilla’s Social VR platform Hubs.",
-    "projlinks": "https://hubs.mozilla.com/nCEZgN9/joshuas-reconstructed-museum Museum Video Walkthrough",
-    "contact": "Joshua Garver, Diana Daly"
+    "projlinks": [
+      {
+        "text": "Link: Social VR experience in your browser",
+        "url": "https://hubs.mozilla.com/nCEZgN9/joshuas-reconstructed-museum"
+      },
+      {
+        "text": "Link: Museum Video Walkthrough",
+        "url": "https://drive.google.com/open?id=17v6ho-CS5L3731cXsv4qZ2OhNZEZClxO"
+      }
+    ],
+    "contact": "Joshua Garver, Dr. Diana Daly"
   },
   {
     "title": "BIO5 Virtual Reality Tour",
     "image": "bio5_VR_TOUR.png",
     "link": "bio5-vr-tour",
     "subtext": "This project was to implement a WebVR experience of the BIO5 Institute to share the location and its cutting edge programs with the public. Features a tour of the art in the building, and student researchers in action.",
-    "projlinks": "https://github.com/DevinBayly/VRTourDev https://bio5.github.io/VirtualTour/",
+    "projlinks": [
+      {
+        "text": "Link: Github repo",
+        "url": "https://github.com/DevinBayly/VRTourDev"
+      },
+      {
+        "text": "Link: VR tour homepage",
+        "url": "https://bio5.github.io/VirtualTour/"
+      }
+    ],
     "contact": "Amy Randall, Lomax Boyd, Deanna Sanchez"
   },
   {
@@ -76,7 +145,16 @@ export default [
     "image": "neuro_choropleth.png",
     "link": "neuro-choro",
     "subtext": "This project aimed to update a visualization used to efficiently analyze neuroimaging results by laying out data within regions associated with popular neurological atlases.",
-    "projlinks": "https://github.com/DevinBayly/neuro-choro https://neuroimaging-core-docs.readthedocs.io/en/latest/pages/choropleths.html",
+    "projlinks": [
+      {
+        "text": "Link: Github repo",
+        "url": "https://github.com/DevinBayly/neuro-choro"
+      },
+      {
+        "text": "Link: Read the docs website",
+        "url": "https://neuroimaging-core-docs.readthedocs.io/en/latest/pages/choropleths.html"
+      }
+    ],
     "contact": "Dianne Patterson"
   }
-]
+] 

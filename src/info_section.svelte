@@ -8,6 +8,16 @@
   })
 </script>
 
+<style>
+.links-holder {
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+.links-holder li {
+width:80%
+}
+</style>
 
 <div class="infoDiv" bind:this={holder}>
 <div id="contents">
@@ -17,7 +27,24 @@
     {#if info.contact!= ""}
     <p>Contact: {info.contact}</p>
     {/if}
+    {#if info.projlinks != undefined }
 
+	    <div class="links-holder">
+	     {#each info.projlinks as {text,url},i}
+	     {#if url==""}
+	     {:else}
+		      {#if text != "In progress"}
+		     <li>
+				<p>{text} </p>
+				<a href="{url}">{url}</a>
+			</li>
+				{:else}
+				<p> In progress</p>
+			{/if}
+			{/if}
+	     {/each}
+	     </div>
+     {/if}
   </div>
 </div>
 </div>
