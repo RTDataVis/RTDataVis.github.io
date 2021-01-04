@@ -1,9 +1,52 @@
 export default [
   {
+    "title": "Cyverse Container Bootcamp SIG on remote visualization",
+    "subtext": "I'll be teaching a section of the container bootcamp with Tyson focused on how to get graphical windows in your screen from your docker and singualrity containers.",
+    "link": "bootcamp_remote_vis",
+    "image": "developing.png",
+    "projlinks": [
+      {
+        "text": "In progress",
+        "url": ""
+      }
+    ],
+    "contact": "Jen Nichols"
+  },
+  {
+    "title": "Women's hackathon spring 2020",
+    "subtext": "I will be teaching a 'Hackathon skill building' workshop on creative coding using p5.js through the OpenProcessing platform. Attendees will have skills then to create web resources for their respective hackathon projects if they like.",
+    "link": "womens_hackathon_2020",
+    "image": "developing.png",
+    "projlinks": [
+      {
+        "text": "In progress",
+        "url": ""
+      }
+    ],
+    "contact": "Jen Nichols"
+  },
+  {
+    "title": "Mt. Lemmon in Your Pocket-Creating a Virtual Reality Tour",
+    "subtext": "This is a demo of a workflow used to create 3D modeling assets using publically available geospatial data. I offered this workshop as part of the GIS Week 2020. The entire demo was 90 minutes and attended by ~20 individuals over zoom. All the teaching material is available at links below, and a recording is provided as well.",
+    "link": "techcoresept20",
+    "image": "gis_workshop_thumb.png",
+    "projlinks": [
+      {
+        "text": "Workshop Materials",
+        "url": "http://maptime.io/tucson/sessions/GIS_day_workshop_11-2020/"
+      },
+      {
+        "text": "Youtube recording",
+        "url": "https://www.youtube.com/watch?v=icnyQwJHVxQ&feature=youtu.be"
+      }
+    ],
+    "contact": "Kiri Carini"
+  },
+  {
     "title": "Tech-Core Level Up--Monday, Sept 28 2020",
     "subtext": "This will be a repeat of the previous workshop that I gave. Same focus will be on using Glitch, A-frame, and Blender to create a WebVR scene  for participants.",
-    "link": "techcoresept20",
-    "image": "developing.png",
+    "link": "techcoresept28",
+    "image": "techcore_blacktext.png",
     "projlinks": [
       {
         "text": "Link: Presentation and resources",

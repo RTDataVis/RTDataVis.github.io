@@ -1,5 +1,47 @@
 export default [
+ {
+    "title": "Autamus Interface",
+    "image": "autamus_icon.png",
+    "link": "autamus_interface",
+    "subtext": "Alec Scott has created an 'Autonomous Containerized Build System' aimed at 'maintaining large collections of up-to-date applications' which he would like to make available researchers at the UA to add their researcher containers to. I worked on a simple web interface which allows researchers to access and explore these containers.",
+    "projlinks": [
+      {
+        "text": "Interface page",
+        "url": "https://devinbayly.github.io/autamus-interface/public/"
+      },
+    {
+        "text": "Github repo",
+        "url": "https://github.com/DevinBayly/autamus-interface/tree/main"
+      }
+    ],
+    "contact": ""
+  },
+ {
+    "title": "Observable portfolio",
+    "image": "developing.png",
+    "link": "observable_port",
+    "subtext": "Many of the projects I've worked on pertain more to advanced 3D modeling/VR and are less like info-vis as a service. I will produce a number of 'classic' examples of info-vis through the Observable platform to make it clear to my clients that this is an option for my consultations.",
+    "projlinks": [
+      {
+        "text": "In progress",
+        "url": ""
+      }
+    ],
+    "contact": ""
+  },
   {
+    "title": "Astronomy Multimedia Performance",
+    "image": "developing.png",
+    "link": "astro_dance",
+    "subtext": "I'll be assisting a group of researchers and artists with producing a multimedia performance in the fall. I'm responsible for 2 aspects of this performance. The first is using HPC resources to interrogate astronomy simulations provided by Chris Impey and output data driven animations. Secondly, I'm going to be working with Abby who is an iSchool undergraduate student on interactive visualizations mapped to a dancer as they perform.",
+    "projlinks": [
+      {
+        "text": "In progress",
+        "url": ""
+      }
+    ],
+    "contact": "Yuanyuan 'Kay' He, Chris Impey, Win Burleson, Autumn Eckman, Abby Collier"
+  },{
     "title": "Oyster Vibrio Literature Review",
     "image": "developing.png",
     "link": "oystervibrio",
@@ -14,29 +56,28 @@ export default [
   },
   {
     "title": "COVID Retail Mitigation Web Scraping",
-    "image": "developing.png",
+    "image": "retail_vis.png",
     "link": "retailscraping",
-    "subtext": "This group of researchers wants to assemble a collection of best practices for the retail sector to mitigate the threat of coronavirus exposure to their staff and customers. I’m assisting with web scraping data from 10 retailer websites from March-December 2020 that they may use to evaluate the practices put in place over time.",
+    "subtext": "This group of researchers wants to assemble a collection of best practices for the retail sector to mitigate the threat of coronavirus exposure to their staff and customers. I’m assisting with web scraping data from 20 retailer websites from March-December 2020 that they may use to evaluate the practices put in place over time. I created an OSF project to capture all the relevant information about project. In this project I describe how to do historic webscraping with python's Scrapy library and the web archive Wayback Machine. I also include a link to the interactive environment to run the scraper code in a jupyternotebook binder.",
     "projlinks": [
       {
-        "text": "In progress",
-        "url": ""
-      }
-    ],
-    "contact": "Mona Arora, Sabrina Helm, Alexis H Wait"
-  },
-  {
-    "title": "AZ Vulnerability Maps",
-    "image": "developing.png",
-    "link": "azvulnmaps",
-    "subtext": "State decision makers need to pinpoint areas of vulnerability using an index composed of social factors and hospital discharge records. ArcGIS map layers were integrated into an interactive webmap that calculates collected data according to the vulnerability index formula by zipcodes.",
-    "projlinks": [
+        "text": "OSF project page",
+        "url": "https://osf.io/uq38n/"
+      },
       {
-        "text": "In progress",
-        "url": ""
+        "text": "Binder Link",
+        "url": "https://mybinder.org/v2/gh/DevinBayly/retail-covid-mitigation-marathon-notebooks-/main"
+      },
+      {
+        "text":"Observable notebook visualization (need data.csv from OSF)",
+        "url":"https://observablehq.com/@devinbayly/retail-visualization-scatter-plot"
+      },
+      {
+        "text": "Github repo for python code",
+        "url": "https://github.com/DevinBayly/retail-covid-mitigation-marathon-notebooks/tree/main"
       }
     ],
-    "contact": "Katherine Ellingson, Kacey Ernst, Valerie Madera Garcia"
+    "contact": "Mona Arora, Sabrina Helm, Alexis H Wait,Zoe Fox, Ignacio Luri"
   },
   {
     "title": "Memory Jogger for Wifi Crowd Analysis",
