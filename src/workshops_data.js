@@ -28,7 +28,7 @@ export default [
   {
     "title": "Mt. Lemmon in Your Pocket-Creating a Virtual Reality Tour",
     "subtext": "This is a demo of a workflow used to create 3D modeling assets using publically available geospatial data. I offered this workshop as part of the GIS Week 2020. The entire demo was 90 minutes and attended by ~20 individuals over zoom. All the teaching material is available at links below, and a recording is provided as well.",
-    "link": "techcoresept20",
+    "link": "GIS_week2020",
     "image": "gis_workshop_thumb.png",
     "projlinks": [
       {
