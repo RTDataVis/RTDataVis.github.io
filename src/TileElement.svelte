@@ -8,7 +8,7 @@
 
 <style>
   .tileDiv {
-    width: 25%;
+    width: 100%; 
     margin: 2%;
     border-radius: 0.5em;
     border: rgba(0, 0, 0, 0.25) solid 2px;

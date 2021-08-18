@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "sirv-cli": "^1.0.0",
-    "three": "^0.120.1"
+    "three": "^0.131.3"
   }
 }

@@ -15,9 +15,18 @@
       ...ProjectTilesArray,
       ...HPCTiles
     ];
-    for (let tile of allTiles) {
+    let sorted = [...allTiles].sort((a,b)=>{
+      // if under construction put first
+      if (a.image =="developing.png"){
+        return -1
+      } else {
+        return 1
+      }
+    })
+    for (let tile of sorted) {
+      console.log(tile)
       new STile({
-        target:holder,
+        target:holder, 
         props: {
           Info: tile
         }
@@ -33,17 +42,14 @@
 
 <style>
   .holder {
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction:column;
-    height:1500px;
-    overflow:scroll;
     background:lightgray;
     border-radius:10px;
-    overflow-y:hidden;
+    columns:4;
+    padding:2%;
   }
   #outer {
     display: flex;
+    width:100%;
     justify-content: center;
   }
 </style>

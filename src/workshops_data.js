@@ -1,22 +1,70 @@
+/*
+fall 2021 presentations roadshow 2 catalyst, ENVS, RTG, levelup
+ieee satelite vis presenting research technologies newest visualization capabilites
+
+*/
+
+
 export default [
+
   {
-    "title": "Cyverse Container Bootcamp SIG on remote visualization",
-    "subtext": "I'll be teaching a section of the container bootcamp with Tyson focused on how to get graphical windows in your screen from your docker and singualrity containers.",
-    "link": "bootcamp_remote_vis",
+    "title": "IEEE Vis Conference Satellite Presentation",
+    "subtext": "I am part of the organizing committee for a satellite viewing of the IEEE VIS conference. In conjunction with the schedule arranged by the visualization faculty here on campus I'll be presenting on behalf of the Research Technologies department about our newest methods for supporting vis on the HPC. I plan to use this as a moment to demonstrate the things that I've learned with Nvidia's new tool 'Omniverse', and its remote visualization capacity in specific.",
+    "link": "ieee_satellite",
     "image": "developing.png",
+    "projlinks": "",
+    "contact": "Josh Levine, Kate Isaacs, Carlos Scheidegger"
+  },
+  {
+    "title": "Data Vis Roadshow Fall 2021",
+    "subtext": "The roadshow is booting back up for 5 more presentations this fall. We kick off with Catalyst Studios presentation for general audiences, then present for ENVS graduate colloqium, then the graduate students of Laura Miller's Research Training Group in the Math department, followed by Level-up at Tech Core, and one last presentation at Catalyst to wrap up.",
+    "link": "roadshow_fall_2021",
+    "image": "developing.png",
+    "projlinks": "",
+    "contact": "Jeff Oliver, Kiri Carini"
+  },
+  {
+    "title": "ResBaz: Intro to Observable Notebooks",
+    "subtext": "I taught a 2 hour workshop in the 2021 U of A ResBaz conference on how to use Observable notebooks for visualization.",
+    "link": "resbaz_observable",
+    "image": "observable_resbaz.png",
     "projlinks": [
       {
-        "text": "In progress",
-        "url": ""
+        "text": "Presentation notebook ",
+        "url": "https://observablehq.com/@devinbayly/observable-resbaz-workshop"
+      }, {
+        "text": "Workshop Page",
+        "url": "https://hackmd.io/-XS5Mqh8TA2EHjTHCQ_4tw"
+
+      },
+      {
+        "text": "Recording",
+        "url": "https://www.youtube.com/watch?v=mnXfmRguUIs"
       }
     ],
-    "contact": "Jen Nichols"
+    "contact": "Alex Bigelow"
+  },
+  {
+    "title": "Data Vis Road Show Spring/Summer 2021 edition",
+    "subtext": "I have been working with Jeff Oliver from the U of A main library Data Coop on Intro to data vis presentations for graduate seminars. In the spring of 2021 we presented for the U of A civil engineering course CE 596, and Laura Miller's Research Training Group July 14th.",
+    "link": "roadshow_spring_summer_2021",
+    "image": "roadshow.png",
+    "projlinks": [
+      {
+        "text": "Presentation CE ",
+        "url": "https://docs.google.com/presentation/d/1qNqYZWhDF2S_hx_Fi2ob2jT6IJcLQfgZlKY2ctGWK0c/edit?usp=sharing"
+      }, {
+        "text": "Presentation RTG",
+        "url": "https://docs.google.com/presentation/d/1JqKo-03ti1PD5asvLc-MZNo1B_JGyW2dJZC4pad_imE/edit?usp=sharing"
+      }
+    ],
+    "contact": "Jeff Oliver, Laura Miller, Kevin Lin, Kevin Lansey"
   },
   {
     "title": "Women's hackathon spring 2020",
     "subtext": "I will be teaching a 'Hackathon skill building' workshop on creative coding using p5.js through the OpenProcessing platform. Attendees will have skills then to create web resources for their respective hackathon projects if they like.",
     "link": "womens_hackathon_2020",
-    "image": "developing.png",
+    "image": "womens_hackathon.png",
     "projlinks": [
       {
         "text": "In progress",

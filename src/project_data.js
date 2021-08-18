@@ -1,4 +1,57 @@
+/*
+tb added
+
+judging the data vis challenge
+bryan carter photogrammetry
+
+*/
 export default [
+ {
+    "title": "Tech Core Biosphere2 Collaboration Internship",
+    "image": "tech_core_b2_2021_summer_tall.png",
+    "link": "tech_core_b2",
+    "subtext": "I was lucky enough to work on the first major collaboration between the Biosphere2 and the Tech Core student startup incubator at Eller College of business. I oversaw 5 interns for 6 weeks in the summer of 2021 on a scientific visualization project based on data from an induced drought experiment run in the rainforest biome. We performed photogrammetry with Metashape, classic data vis in Vega Lite, and 3D modeling and 360 video capture in Unity. These results are intended for use on the tech core Biosphere webpage, and viewable in 360 WebVR.",
+    "projlinks": [{
+      "text":"Drive project folder",
+      "url":"https://drive.google.com/drive/folders/13v9QfUFVjQD-x7dh8chQZFvAxmy5zmx6?usp=sharing"
+    },{
+      "text":"cinematic vis presentation video",
+      "url":"https://www.youtube.com/watch?v=EiQ9S5lNbA8"
+
+    },{
+      "text":"classic data vis",
+      "url":"https://n2omeredithvis.baylyd.repl.co/ https://co2meredithvis.baylyd.repl.co/"
+    }],
+    "contact": "Ash Black, Aaron Bugaj, Laura Meredith, Trevor Hoshiwara, Muhtasim Al-Farabi, Samantta Garcia, Nick Vinas, and Jai Stellmacher"
+  },
+ {
+    "title": "Experiments with Irydium",
+    "image": "developing.png",
+    "link": "irydium_experiments",
+    "subtext": "Back in the day I was a Mozilla Iodide fan boy, but that project has stopped active development. More recently Will Lachance from that original group is working on another data vis notebook environment that I'm super into called Irydium. Iridium is the next element in the periodic table and so goes the name. The actual tool will be a markdown styled notebook for explanatory data vis with support for svelte and pyodide cells. My role is guinea pig par excellence.",
+    "projlinks": "",
+    "contact": "Will Lachance (Mozilla)"
+  },
+ {
+    "title": "Digital Borderlands Aframe Conversion",
+    "image": "digital_borderlands_conv.png",
+    "link": "digital_borderlands",
+    "subtext": "This was a conversion on behalf of new faculty in Digital Humanities Jonathan Crisman. The other name of this project is the migrant forensic empathy project. Jonathan is trying to create an experiential app to capture some fraction of the impact of deaths along the border. I reconstructed the landscape from USGS materials using meshlab. I also wrote algorithms to accurately place cross markers at the locations that the medical examiner's database says people were found. I then used aframe to create a WebVR scene for all this complete with click based navigation of a region of the southwest that is larger than tucson.",
+    "projlinks": [
+      {
+        "text": "OSF Project Page",
+        "url": "https://osf.io/v9swc/"
+      },
+      {
+        "text": "Github repo",
+        "url": "https://github.com/DevinBayly/digital_borderlands_conversion"
+      },{
+        "text":"Google Drive project folder",
+        "url":"https://drive.google.com/drive/folders/1v42W_dgflWdtrD8QBI_OVmz3nfVLVp34?usp=sharing"
+      }
+    ],
+    "contact": "Jonathan Crisman"
+  },
  {
     "title": "Autamus Interface",
     "image": "autamus_icon.png",
@@ -40,16 +93,22 @@ export default [
         "url": ""
       }
     ],
-    "contact": "Yuanyuan 'Kay' He, Chris Impey, Win Burleson, Autumn Eckman, Abby Collier"
+    "contact": "Yuanyuan 'Kay' He, Chris Impey, Win Burleson, Gustavo Almeida, Hayley Meier, Maddie Brown, , Abby Collier"
   },{
     "title": "Oyster Vibrio Literature Review",
-    "image": "developing.png",
+    "image": "oyster_map.png",
     "link": "oystervibrio",
-    "subtext": "Vibrio illness from oysters can be a moderate to life threatening risk from eating raw oysters. I’m assisting Emily Cooksey with creating a web map of her literature review representing relevant parameters of studies spatially where they took place around the world.",
+    "subtext": "Vibrio illness from oysters can be a moderate to life threatening risk from eating raw oysters. I’m assisting Emily Cooksey with creating a web map of her literature review representing relevant parameters of studies spatially where they took place around the world. Most of the final work to setup the website was performed by Jeff Oliver, I only provided intermediate support.",
     "projlinks": [
       {
-        "text": "In progress",
-        "url": ""
+        "text": "Shiny App progress",
+        "url": "https://emilycooksey.shinyapps.io/shiny/"
+      },{
+        "text": "Literature Review, 'The world is your oyster'",
+        "url":"https://repository.arizona.edu/handle/10150/658631"
+      },{
+        "text":"Github repo",
+        "url":"https://github.com/emcooksey/Global_Vp"
       }
     ],
     "contact": "Jean McClelland, Emily Cooksey"

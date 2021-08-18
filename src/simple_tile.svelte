@@ -11,12 +11,12 @@
     border: rgba(0, 0, 0, 0.25) solid 2px;
     border-radius: 10px;
     padding: 2px;
-    margin: 2%;
+    margin: 2% auto;
     display: flex;
-    width: 20%;
-    flex-direction: column;
-    justify-content: space-around;
+    width: 80%;
+    
     background:white;
+    display:table;
   }
   img {
     display: block;
