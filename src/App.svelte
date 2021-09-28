@@ -94,9 +94,10 @@
             <h3>What I do</h3>
             <ul>
 
-              <li>Visualization, Animation, and Mapping Software</li>
+              <li>Visualization, Animation</li>
               <li>Virtual reality (VR) and augmented reality (AR)</li>
-              <li>Interactive web visualizations</li>
+              <li>Interactive web visualizations, and web maps</li>
+              <li>Publication figure review</li>
               <li>3D modeling</li>
               <li>Photogrammetry</li>
               <li>Advanced or large scale visualizations using the HPC</li>
